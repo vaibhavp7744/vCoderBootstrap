@@ -50,6 +50,69 @@
     </div>
   </nav>
 
+  <!-- Login modal -->
+<div class="modal fade" id="LoginModal" tabindex="-1" aria-labelledby="LoginModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="LoginModalLabel">LogIn to vCoder </h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3 row">
+          <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control-plaintext" id="staticEmail" placeholder="abc@gmail.com">
+          </div>
+        </div>
+        <div class="mb-3 row">
+          <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassword">
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Login</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- signup Modal -->
+<div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="signupModalLabel">Signup to vCoder</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form class="row g-3">
+          <div class="col-auto">
+            <label for="staticEmail2" class="visually-hidden">Email</label>
+            <input type="text" class="form-control-plaintext" id="staticEmail2" placeholder="abc@gmail.com">
+          </div>
+          <div class="col-auto">
+            <label for="inputPassword2" class="visually-hidden">Password</label>
+            <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+          </div>
+          <div class="col-auto">
+            <button type="submit" class="btn btn-primary mb-3">Confirm identity</button>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Signup</button>
+      </div>
+    </div>
+  </div>
+</div>
+
     <div class="container my-4 ">
         <div class="row mb-2">
             <div class="col-md-6">
@@ -65,7 +128,7 @@
                   </a>
                 </div>
                 <div class="col-auto d-none d-lg-block">
-                  <img class="bd-placeholder-img" width="200" height="250" src="https://source.unsplash.com/300x300/?technology,code,ai" alt="">
+                  <img class="bd-placeholder-img" width="200" height="250" src="https://picsum.photos/300/300/?technology,code,ai" alt="">
                 </div>
               </div>
             </div>
@@ -82,12 +145,13 @@
                   </a>
                 </div>
                 <div class="col-auto d-none d-lg-block">
-                    <img class="bd-placeholder-img" width="200" height="250" src="https://source.unsplash.com/300x300/?technology,web designing" alt="">
+                    <img class="bd-placeholder-img" width="200" height="250" src="https://picsum.photos/300/300/?technology,web designing" alt="">
                 </div>
               </div>
             </div>
           </div>
     </div>
+
     
     <div class="container my-4 ">
         <div class="row mb-2">
@@ -104,7 +168,7 @@
                   </a>
                 </div>
                 <div class="col-auto d-none d-lg-block">
-                  <img class="bd-placeholder-img" width="200" height="250" src="https://source.unsplash.com/300x300/?nature,learn coding,Technology" alt="">
+                  <img class="bd-placeholder-img" width="200" height="250" src="https://picsum.photos/300/300/?nature,learn coding,Technology" alt="">
                 </div>
               </div>
             </div>
@@ -121,7 +185,7 @@
                   </a>
                 </div>
                 <div class="col-auto d-none d-lg-block">
-                    <img class="bd-placeholder-img" width="200" height="250" src="https://source.unsplash.com/300x300/?frontend,bootstrap,coding" alt="">
+                    <img class="bd-placeholder-img" width="200" height="250" src="https://picsum.photos/300/300/?frontend,bootstrap,coding" alt="">
                 </div>
               </div>
             </div>
@@ -134,7 +198,7 @@
                 <p class="lead">A look at the current challenges and opportunities facing public sector organizations as they hope to adopt cloud...</p>
             </div>
             <div class="col-md-5">
-                <img class="img-fluid" src="https://source.unsplash.com/400x400/?tech,code,laptop" alt="">
+                <img class="img-fluid" src="https://picsum.photos/400/400/?tech,code,laptop" alt="">
             </div>
         </div>
         <div></div>
